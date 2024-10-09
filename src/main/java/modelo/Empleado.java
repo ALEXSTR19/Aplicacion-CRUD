@@ -25,8 +25,7 @@ public class Empleado {
 	@Column(name = "email", length = 60, nullable = false,unique = true)
 	private String email;
 
-	public String Empleado() {
-		return
+	public Empleado() {
 	}
 
 	public Empleado(Long id, String nombre, String apellido, String email) {
